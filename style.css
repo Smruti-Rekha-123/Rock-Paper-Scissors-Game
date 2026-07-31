@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    /* mere liye cursor kam kar diya toh isliye opacity hat jayega */
+    /*opacity: 0.5; /*ea thoda blur ho jayega*/
+    cursor: pointer; /*jaise hi andar hover kare arrow symbol hat ke 
+                       hand wala symbol aa jayega*/
+    background-color: black;   /* upar wala jo 50% iske liye circle or black aya*/                
+}
+
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /* ea image cover ho jayega*/
+    border-radius: 50%; /* ea circle */
+}
+
+.choices {
+    display: flex;  /*line by line aa jayega*/
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.Score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 4rem;
+}
+
+#msg{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline; /*jitna hi lekha hua hai itni hi chahiya lambi nehin chahiye*/
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+    
